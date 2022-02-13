@@ -1,0 +1,201 @@
+<!doctype html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <title>刘坤的简历</title>
+    <style>
+        *{
+            box-sizing: border-box;
+        }
+        body{
+            background: #eeeeee;
+        }
+        article{
+            width: 21cm;
+            min-height: 29.7cm;
+            background: white;
+            margin: 0 auto;
+            overflow: auto;
+            padding: 1em;
+        }
+    </style>
+    <style media="print">
+        body{
+            margin: 0;
+        }
+            .page2{
+                page-break-before: always;
+                margin-top: 30px;
+            }
+    </style>
+    <style>
+        p{
+            margin: 0.3em 0;
+        }
+        h1{
+            font-size: 25px;
+            margin-top: 0;
+        }
+        h4,h5,h6{
+            font-weight: normal;
+        }
+        ol,ul{
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+        strong{
+            font-weight: normal;
+            color: #f60;
+        }
+        a{
+            color: #999;
+            text-decoration: none;
+            border-bottom: 1px solid;
+        }
+        p,li{
+            color: #666;
+        }
+        h3,h4,h5,h6{
+            margin: 0;
+        }
+        .bio{
+            position: relative;
+        }
+        .bio img{
+            position: absolute;
+            top: 0;
+            right: 0;
+        }
+    </style>
+    <style>
+        .projects p{
+            color:#666;
+        }
+        .projects strong{
+            color:#f60;
+        }
+        .projects>ol{
+            padding: 0;
+            margin-top: 0;
+            list-style-position: inside;
+        }
+        .projects>li{
+            margin-bottom: 24px;
+        }
+        .projects>ol>li>header{
+            display: flex;
+            justify-content: space-between;
+        }
+        .projects>ol>li h3{
+            display: inline-block;
+        }
+        .projects>ol>li>div{
+            display: flex;
+            justify-content: space-between;
+        }
+    </style>
+    <style>
+        .openCode p{
+            color:#666;
+        }
+        .openCode strong{
+            color:#f60;
+        }
+        .openCode>ol{
+            padding: 0;
+            margin-top: 0;
+            list-style-position: inside;
+        }
+        .openCode>li{
+            margin-bottom: 24px;
+        }
+        .openCode>ol>li>header{
+            display: flex;
+            justify-content: space-between;
+        }
+        .openCode>ol>li h3{
+            display: inline-block;
+        }
+    </style>
+    <style>
+        #skill{
+            width: 500px;
+            height: 270px;
+        }
+        @media print{
+            #skills{
+                display: none;
+            }
+        }
+        .skills>.wrapper{
+            display: flex;
+            justify-content:space-between;
+        }
+        .skills>.wrapper>ul>li{
+            margin-top: 16px;
+            line-height: 1.2;
+            margin-bottom: 8px;
+        }
+        
+    </style>
+</head>
+<body>
+    <article>
+        <section class="bio">
+            <h1>刘坤</h1>
+            <p>
+                &nbsp男&nbsp | &nbsp25岁&nbsp | &nbsp前端开发工程师&nbsp
+            </p>
+            <p>
+                &nbsp手机：13279365860&nbsp | &nbsp微信：liu974487599&nbsp |  &nbsp邮箱: 974487599@qq.com
+            </p>
+        </section>
+        <section class="projects">
+            <h2>项目经历</h2>
+            <ol>
+                <li>
+                    <header>
+                        <h3></h3>
+                        <span>
+                            <a href=""></a>
+                        </span>
+                    </header>
+                    <p></p>
+                    <p></p>
+                </li>
+            </ol>
+            </section>
+        <section class="skills">
+            <h2>个人技能</h2>
+            <div class="wrapper">
+                <ul>
+                    <li>熟悉页面制作技巧，能将设计稿进行还原</li>
+                    <li>熟悉<strong>Vue全家桶</strong>的使用，如Vue CLI、Vue Router、Vuex等</li>
+                    <li>熟练使用<strong>Echarts</strong>、<strong>IView-ui</strong>、<strong>element-ui</strong>进行页面设计</li>
+<!--                    <li>熟悉<strong>React</strong>全家桶的使用，如create-react-app、React Router、Redux等</li>-->
+                    <li>熟悉<strong>ES6</strong>，如let、Promise、Set、箭头函数等</li>
+<!--                    <li>了解 <strong>DOM API</strong> 的使用</li>-->
+<!--                    <li>了解<strong>webpack的配置和优化</strong></li>-->
+<!--                    <li>了解<strong>TypeScript</strong>的使用,部分项目已使用 TS 实现</li>-->
+                </ul>
+            </div>
+        </section>
+        <section class="education">
+            <h2>教育经历</h2>
+            <p>2015年 ~ 2018年 西安航空学院 电子工程学院 专科</p>
+        </section>
+        <section>
+            <h2>其他链接</h2>
+            <p>
+            我的<a href="https://www.yuque.com/eridanus/frontend">博客小组</a>&nbsp&nbsp&nbsp
+            &nbsp&nbsp&nbsp&nbsp&nbsp我的<a href="https://github.com/sbgrb">github</a>
+            </p>
+        </section>
+    </article>
+    <script src="https://cdn.bootcdn.net/ajax/libs/echarts/4.8.0/echarts.min.js"></script>
+    <script src="./main.js"></script>
+</body>
+</html>
